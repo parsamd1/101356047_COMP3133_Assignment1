@@ -13,6 +13,7 @@ const typeDefs = gql`
   }
 
   type Employee {
+    _id: String
     first_name: String
     last_name: String
     email: String
